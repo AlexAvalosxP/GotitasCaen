@@ -1,0 +1,54 @@
+/* Estilos aplicables a todos los elementos del proyecto */
+
+body {
+  padding-top: 0px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+h1 {
+	color: #dedbe0;
+	font-family: 'aileronsregular';
+	font-size: 70px;
+}
+
+h2, h3, h4 {
+	font-family: 'lemonmilkregular';
+	color: #dedbe0;
+}
+
+h2{
+	font-size: 90px !important;
+}
+
+p, a{
+	font-family: 'robotothin';
+	color: white;
+	font-weight: bold;
+}
+
+table {
+	background-color: white;
+}
+
+li {
+	list-style: none;
+	font-size: 18px;
+	padding: 50px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btnCalc
+{
+	width: 100px !important;
+	margin-left: calc(50% - 50px) !important;
+}

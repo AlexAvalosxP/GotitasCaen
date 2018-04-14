@@ -1,0 +1,26 @@
+body {
+	padding-top: 50px;
+    background: url('../../imagenes/bg7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #CDD9D5;
+}
+
+@media (min-width: 992px) {
+  body {
+  	padding-top: 50px;
+    background: url('../../imagenes/bg7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #CDD9D5;
+  }
+}
+
+# barraNav {
+	background-color: #3C633F; 
+	border: 0px solid #3C633F;
+}
