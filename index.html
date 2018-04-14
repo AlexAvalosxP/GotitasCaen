@@ -95,8 +95,8 @@
 
 
 
-              <p><input type="Radio" name="tiempo" id="r1" value="Anual" checked>Anual</p>
-              <p><input type="Radio" name="tiempo" id="r2" value="Mes">Mes:</p><select id="mes" class="form-control">
+              <p><input type="Radio" name="tiempo" id="r1" value="Anual" checked onclick="desMes()">Anual</p>
+              <p><input type="Radio" name="tiempo" id="r2" value="Mes" onclick="desAnu()">Mes:</p><select disabled id="mes" class="form-control">
                 <option value="ss" disabled selected>Selecciona un mes</option>
                 <option value="1">Enero</option>
                 <option value="2">Febrero</option>
@@ -146,6 +146,14 @@
     <script src="views/estilos/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script type="text/javascript">
+      function desMes()
+      {
+        document.getElementById('mes').disabled = true;
+      }
+      function desAnu()
+      {
+        document.getElementById('mes').disabled = false;
+      }
       function Calcular()
       {
         l = document.getElementById('largo').value;
